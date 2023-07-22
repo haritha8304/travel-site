@@ -1,0 +1,284 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+  }
+.head-content{
+    position: absolute;
+    color:black;
+    top: 150px;
+    left: 70%;
+    text-align: center;
+}
+.head-content>h3{
+    font-weight: bold;
+    font-size: 50px;
+}
+.head-content>h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: orangered;
+}
+
+.btn-pos{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    border-radius: 10px;
+  
+}
+.effect:hover{
+    background-color:black;
+
+}
+.package{
+    margin-top: 700px;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.carousel-item{
+    height: 600px;
+}
+.shadow-clr{
+    color: blue;
+    font-weight: bold;
+}
+ .modal-footer{
+        margin-right: 200px;
+}
+
+   
+    .crd-struct{
+        width: 320px;
+        height: 200px;
+        border-radius: 20px;
+       overflow: hidden;
+        border: 8px solid white;
+        position: relative;
+    }
+    .card-img{
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .crd-body{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        position: absolute;
+        background-color: rgb(55, 192, 192);
+        backdrop-filter: blur(1px);
+        border-radius: 15px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 2s;
+    }
+    .crd-struct:hover .crd-body{
+        right: 0;
+    }
+    .crd-btn{
+        width: 100px;
+        color: white;
+        background: red;
+        padding: 5px 10px;
+        margin: 0px 100px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .imgcard{
+        border: 1px solid yellow;
+        border-radius: 50%;
+        width: 10rem;
+        margin: 10px 20px;
+    }
+    .butn{
+        color: darkmagenta;
+        text-decoration: none;
+    }
+    .crd-shape{
+        background-color: rgb(230, 221, 221);
+        border-radius: 55px 55px;
+    }
+    .footer-head{
+        background-color: lightgrey;
+        height: 400px;
+    }
+    .unchecked{
+        
+        color: green;
+    }
+    .fa-star-half-stroke{
+        color: green;
+    }
+    .footer{
+        background-color: darkslateblue;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        
+       
+    }
+    .heading{
+        color: orangered;
+        
+    }
+    .contents{
+        color: white;
+    }
+    .links{
+        text-decoration: none;
+        color: white;
+    }
+    .fa-heart{
+        font-size: 50px;
+    }
+
+
+    @media (max-width: 959px){
+        .bg-image{
+            background-image: url('https://wallpapers.com/images/hd/travel-hd-axhrsecphqby11wk.jpg');
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            
+        }
+        .navbar-nav{
+            text-align: left;
+        }
+        .head-content{
+            position: absolute;
+            color: white;
+            top: 150px;
+            left: 30%;
+
+        }
+        .head-content>h4{
+            color:orangered;
+        }
+        .btn-pos{
+            position: absolute;
+            top: 450px;
+            left: 300px;
+            
+        }
+        .package{
+            margin-top: 600px;
+        }
+        .card:hover{
+            box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+        }
+        .carousal-img{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+        }
+        .carousel-item{
+            height: 100vh;
+            width: 100vw;
+        }
+        .carousel-inner{
+            height: 1000px;
+        }
+        .footer-head{
+            height: 400px;
+        }
+        .footer{
+            height: 300px;
+            width: 100vw;
+        }
+       
+        .carousel{
+            height: 100vh;
+        }
+        .shadow-clr{
+            color: blue;
+            font-weight: bold;
+        }
+        .carousel-caption{
+            color: blue;
+            font-weight: bold;
+        }
+        
+    }
+    @media (max-width: 664px){
+        .bg-image{
+            background-image: url('https://wallpapers.com/images/hd/travel-hd-axhrsecphqby11wk.jpg');
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            
+        } 
+        .btn-pos{
+            position: absolute;
+            top: 450px;
+            left: 200px;
+            
+        }
+        .carousal-img{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+        }
+        .carousel-item{
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+        }
+        .carousel-inner{
+            height: 1000px;
+            position: absolute;
+        }
+        .carousel{
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+        }
+        .footer-head{
+            height: 500px;
+        }
+        .footer{
+            height: 400px;
+            width: 100vw;
+            display: block;
+            margin-top: -50px;
+        }
+        .cardgroup{
+            display: flex;
+        }
+        .crd-shape{
+            width: 20rem;
+        }
+        
+    }
+    
+    
+    
